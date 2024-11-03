@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067892505707",
+    "project_id": "challengeplussoft",
+    "storage_bucket": "challengeplussoft.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067892505707:android:b6afa8a69a00438ccc452e",
+        "android_client_info": {
+          "package_name": "com.example.sprint3mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEWqsnoG40y3zAjJbLrZu2cyGDJ2-QJ-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
