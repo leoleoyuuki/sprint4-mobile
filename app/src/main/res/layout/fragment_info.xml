@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre o App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        app:layout_constraintBottom_toTopOf="@+id/contentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Este aplicativo foi desenvolvido para facilitar a visualização e o cadastro de empresas. Abaixo, você encontrará informações detalhadas sobre as tecnologias utilizadas e os desenvolvedores envolvidos no projeto."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tecnologiasTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Tecnologias Utilizadas:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        app:layout_constraintTop_toBottomOf="@+id/contentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tecnologiasContentTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="• Kotlin\n• Android Studio\n• Retrofit\n• Oracle Database\n• Express.js (Backend)\n• GSON\n• ConstraintLayout"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/tecnologiasTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/objetivoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Objetivo do Aplicativo:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        app:layout_constraintTop_toBottomOf="@+id/tecnologiasContentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/objetivoContentTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="O objetivo principal do aplicativo é permitir que os usuários visualizem informações detalhadas sobre diferentes empresas e também possibilitar o cadastro de novas empresas no sistema. O aplicativo visa melhorar a gestão e a acessibilidade das informações corporativas."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/objetivoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/desenvolvedoresTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Desenvolvedores:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        app:layout_constraintTop_toBottomOf="@+id/objetivoContentTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/desenvolvedoresContentTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="• Leonardo Yuuki Nakazone (RM: 550373)\n• Leonardo Blanco Pérez Ribeiro (RM: 99119)\n• Paulo Henrique Luchini Ferreira (RM: 98082)\n• Gustavo Moreira Gonçalves (RM: 97999)\n• Daniel Soares Delfin (RM: 552184)"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedoresTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

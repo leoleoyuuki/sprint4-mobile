@@ -1,0 +1,194 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#f7f7f7">
+
+    <!-- Título Centralizado -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Participantes Do Grupo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2c3e50"
+        android:paddingBottom="24dp" />
+
+    <!-- Container dos Participantes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_background"
+        android:padding="16dp">
+
+        <!-- Participante 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/rm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="550373"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leonardo Yuuki Nakazone"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2c3e50"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <!-- Divisor -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc" />
+
+        <!-- Participante 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/rm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99119"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leonardo Blanco Pérez Ribeiro"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2c3e50"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <!-- Divisor -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc" />
+
+        <!-- Participante 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/rm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="98082"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paulo Henrique Luchini Ferreira"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2c3e50"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <!-- Divisor -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc" />
+
+        <!-- Participante 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/rm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="97999"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gustavo Moreira Gonçalves"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2c3e50"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+        <!-- Divisor -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc" />
+
+        <!-- Participante 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/rm5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="552184"
+                android:textSize="16sp"
+                android:textColor="#34495e"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daniel Soares Delfin"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2c3e50"
+                android:layout_weight="3" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

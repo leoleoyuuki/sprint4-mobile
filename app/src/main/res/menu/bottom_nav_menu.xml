@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_participantes"
+        android:icon="@drawable/pessoas"
+        android:title="@string/title_participantes" />
+
+    <item
+        android:id="@+id/navigation_empresas"
+        android:icon="@drawable/empresas"
+        android:title="@string/title_empresas" />
+
+    <item
+        android:id="@+id/navigation_cadastrarempresas"
+        android:icon="@drawable/adicionarempresa"
+        android:title="@string/title_cadastrarempresas" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/info"
+        android:title="@string/title_info" />
+
+
+</menu>

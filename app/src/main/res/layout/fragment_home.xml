@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título Principal -->
+        <TextView
+            android:id="@+id/tituloPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bem-vindo ao Aplicativo de Gestão de Empresas"
+            android:textColor="#F58220"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Subtítulo Explicativo -->
+        <TextView
+            android:id="@+id/subtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui você pode listar e cadastrar empresas de forma simples e rápida."
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Seção de Explicação da Listagem de Empresas -->
+        <TextView
+            android:id="@+id/tituloListagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listagem de Empresas"
+            android:textColor="#F58220"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/explicacaoListagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A funcionalidade de listagem permite que você visualize todas as empresas cadastradas, incluindo informações como nome, tamanho, setor, localização geográfica, número de funcionários, e se a empresa é cliente ou não. Basta acessar a aba 'Empresas' para ver a listagem completa, com todos os detalhes organizados de maneira clara e fácil de entender."
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Seção de Explicação do Cadastro de Empresas -->
+        <TextView
+            android:id="@+id/tituloCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Novas Empresas"
+            android:textColor="#F58220"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/explicacaoCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para cadastrar uma nova empresa, vá até a aba de cadastro e preencha as informações necessárias. O cadastro inclui campos para o nome da empresa, seu tamanho, setor de atuação, localização geográfica, número de funcionários, tipo da empresa, e uma opção para marcar se a empresa é cliente ou não. Tudo foi pensado para ser o mais intuitivo possível, facilitando o processo de adicionar novas empresas ao sistema."
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Rodapé -->
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este aplicativo foi desenvolvido para simplificar a gestão de empresas, garantindo que todos os dados estejam organizados de forma eficiente."
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp" />
+
+    </LinearLayout>
+</ScrollView>

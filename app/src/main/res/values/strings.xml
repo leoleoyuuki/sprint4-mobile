@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">sprint3mobile</string>
+    <string name="title_home">Home</string>
+    <string name="title_participantes">Participantes</string>
+    <string name="title_empresas">Empresas</string>
+    <string name="title_cadastrarempresas">Cadastrar Empresas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_info">Info</string>
+
+    <string-array name="tamanho_opcoes">
+        <item>Micro</item>
+        <item>Pequena</item>
+        <item>Média</item>
+        <item>Grande</item>
+        <item>Multinacional</item>
+    </string-array>
+
+    <string-array name="setor_opcoes">
+        <item>Comercial</item>
+        <item>Industrial</item>
+        <item>Rural</item>
+        <item>Serviços</item>
+    </string-array>
+
+    <string-array name="tipo_empresa_opcoes">
+        <item>Sociedade Empresária Limitada (LTDA)</item>
+        <item>Microempreendedor Individual (MEI) </item>
+        <item>Sociedade Limitada Unipessoal (SLU)</item>
+        <item>Sociedade Anônima (SA)</item>
+        <item>Empresário Individual (EI)</item>
+        <item>Sociedade Simples</item>
+    </string-array>
+</resources>
+
+

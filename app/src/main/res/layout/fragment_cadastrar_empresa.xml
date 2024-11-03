@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Nova Empresa"
+        android:textSize="24sp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/nomeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Empresa"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/tamanhoSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:contentDescription="Tamanho"
+        android:entries="@array/tamanho_opcoes"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/setorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:entries="@array/setor_opcoes"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/localizacaoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Localização Geográfica"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/numeroFuncionariosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Número de Funcionários"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/tipoEmpresaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:entries="@array/tipo_empresa_opcoes"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/clienteCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliente"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Empresa"
+        android:textColor="@android:color/white"
+        android:background="@color/orange"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
