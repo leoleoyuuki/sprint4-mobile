@@ -8,6 +8,7 @@ Este projeto Kotlin é um aplicativo Android desenvolvido com o objetivo de forn
 
 - **Kotlin**: Linguagem principal utilizada para o desenvolvimento do aplicativo.
 - **Android Studio**: Ambiente de desenvolvimento integrado (IDE) utilizado para criar e gerenciar o projeto.
+- **Firebase Auth**: Sistema de login dentro do app.
 - **Retrofit**: Biblioteca para requisições HTTP ao backend.
 - **Oracle Database**: Banco de dados utilizado no backend para armazenar informações.
 - **ConstraintLayout**: Layout usado para criar interfaces responsivas e flexíveis.
