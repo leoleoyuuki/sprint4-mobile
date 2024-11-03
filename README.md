@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto Kotlin é um aplicativo Android desenvolvido com o objetivo de fornecer uma interface para a visualização e o cadastro de informações de empresas. O projeto utiliza diversas tecnologias e bibliotecas para garantir um funcionamento eficiente e uma experiência de usuário agradável.
+Este projeto Kotlin é um aplicativo Android desenvolvido com o objetivo de fornecer uma interface para a visualização e o cadastro de informações de empresas. O projeto utiliza diversas tecnologias e bibliotecas para garantir um funcionamento eficiente e uma experiência de usuário agradável. Obs: Com base nas técnologias usadas no projeto inteiro, decidimos que o aplicativo não teria funções de alterar e deletar dados.
 
 ## Tecnologias Utilizadas
 
